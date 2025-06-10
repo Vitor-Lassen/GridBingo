@@ -1,0 +1,27 @@
+/* Reset geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reset de listas */
+ul {
+  list-style: none;
+}
+
+/* Reset de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Outros exemplos */
+body {
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
