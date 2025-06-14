@@ -86,8 +86,11 @@ const restart  = () =>{
 #app {
   display: flex;
   flex-direction: column;
-  background-color: blanchedalmond;
- 
+
+  background-image: url('../public/bg.jpeg');
+   background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
   height: 100vh;
 }
 .grid{
@@ -144,11 +147,11 @@ input {
   font-size: 5vw;
   text-align: center;
   
-  background-color: #ffb7005b;
+  background-color: #ffb700d7;
   border: 1px solid #fff;
   box-sizing:border-box
 }
 .last-number{
-  background-color: #ffa6005b;
+  background-color: #ff00005b;
 }
 </style>
